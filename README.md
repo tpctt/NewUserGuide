@@ -9,11 +9,11 @@ pod 'NewUserGuide'
     -(void)showNewUserGuideIfNeed
     {
     ///先注释,方便查看效果
-    //    if([NewUserGuide hadShowNewUserGuideForKey:NSStringFromClass(self.class)] ||
-    //       [NewUserGuide isShowingNewUserGuideForKey:NSStringFromClass(self.class)]
-    //       ){
-    //        return;
-    //    }
+        //    if([NewUserGuide hadShowNewUserGuideForKey:NSStringFromClass(self.class)] ||
+        //       [NewUserGuide isShowingNewUserGuideForKey:NSStringFromClass(self.class)]
+        //       ){
+        //        return;
+        //    }
 
     UIView *onView ;
     //    = self.tabBarController.navigationController.view;
@@ -48,5 +48,5 @@ pod 'NewUserGuide'
 <br>如果对您有帮助,还请star支持一下
 <br>如果对您有帮助,还请star支持一下
 <br>
-<br>![img](https://github.com/tpctt/NewUserGuide/blob/master/demo_image/NewUserGuide1.png)
-<br>![img](https://github.com/tpctt/NewUserGuide/blob/master/demo_image/NewUserGuide2.png)
+<br>![image](demo_image/NewUserGuide1.png)
+<br>![image](demo_image/NewUserGuide2.png)
