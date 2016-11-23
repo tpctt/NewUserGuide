@@ -46,6 +46,7 @@ pod 'NewUserGuide'
 ```
 
 <br>如果对您有帮助,还请star支持一下
+<br>如果对您有帮助,还请star支持一下
 <br>
-<br>![](https://github.com/tpctt/NewUserGuide/blob/master/demo_image/NewUserGuide1.png)
-<br>![](https://github.com/tpctt/NewUserGuide/blob/master/demo_image/NewUserGuide2.png)
+<br>![img](https://github.com/tpctt/NewUserGuide/blob/master/demo_image/NewUserGuide1.png)
+<br>![img](https://github.com/tpctt/NewUserGuide/blob/master/demo_image/NewUserGuide2.png)
