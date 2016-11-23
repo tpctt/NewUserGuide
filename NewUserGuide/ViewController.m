@@ -34,7 +34,7 @@
 ///新手引导,聚光灯
 -(void)showNewUserGuideIfNeed
 {
-    
+    ///先注释,方便查看效果
 //    if([NewUserGuide hadShowNewUserGuideForKey:NSStringFromClass(self.class)] ||
 //       [NewUserGuide isShowingNewUserGuideForKey:NSStringFromClass(self.class)]
 //       ){
