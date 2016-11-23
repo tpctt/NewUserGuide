@@ -5,7 +5,7 @@ pod 'NewUserGuide'
 初始化一个 聚光灯效果, 用于功能引导, 支持 path 和 view 的设置,包括一张图片
 ##
 ```
-///新手引导,聚光灯
+    ///新手引导,聚光灯
     -(void)showNewUserGuideIfNeed
     {
     ///先注释,方便查看效果
