@@ -48,5 +48,6 @@ pod 'NewUserGuide'
 <br>如果对您有帮助,还请star支持一下
 <br>如果对您有帮助,还请star支持一下
 <br>
-<br>![](demoImage/NewUserGuide1.png)
-<br>![](demoImage/NewUserGuide2.png)
+
+![image](demoImage/NewUserGuide1.png)
+![image](demoImage/NewUserGuide2.png)
