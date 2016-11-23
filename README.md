@@ -1,8 +1,14 @@
 # NewUserGuide
+
+
+初始化一个 聚光灯效果, 用于功能引导, 支持 path 和 view 的设置,包括一张图片
+
+![image](demoImage/NewUserGuide1.png)
+![image](demoImage/NewUserGuide2.png)
+
 ```
 pod 'NewUserGuide'
 
-初始化一个 聚光灯效果, 用于功能引导, 支持 path 和 view 的设置,包括一张图片
 ##
 ```
     ///新手引导,聚光灯
@@ -43,11 +49,9 @@ pod 'NewUserGuide'
 
 
     }
-```
 
+`
 <br>如果对您有帮助,还请star支持一下
 <br>如果对您有帮助,还请star支持一下
 <br>
 
-![image](demoImage/NewUserGuide1.png)
-![image](demoImage/NewUserGuide2.png)
