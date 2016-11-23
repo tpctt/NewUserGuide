@@ -13,6 +13,7 @@
 		224B32DD1DE53C67007803DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224B32DB1DE53C67007803DE /* Main.storyboard */; };
 		224B32DF1DE53C67007803DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224B32DE1DE53C67007803DE /* Assets.xcassets */; };
 		224B32E21DE53C67007803DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224B32E01DE53C67007803DE /* LaunchScreen.storyboard */; };
+		224B32EC1DE53C95007803DE /* NewUserGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B32EB1DE53C95007803DE /* NewUserGuide.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		224B32DE1DE53C67007803DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		224B32E11DE53C67007803DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		224B32E31DE53C67007803DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224B32EA1DE53C95007803DE /* NewUserGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewUserGuide.h; sourceTree = "<group>"; };
+		224B32EB1DE53C95007803DE /* NewUserGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewUserGuide.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		224B32C61DE53C67007803DE = {
 			isa = PBXGroup;
 			children = (
+				224B32E91DE53C95007803DE /* Classes */,
 				224B32D11DE53C67007803DE /* NewUserGuide */,
 				224B32D01DE53C67007803DE /* Products */,
 			);
@@ -77,6 +81,15 @@
 				224B32D31DE53C67007803DE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224B32E91DE53C95007803DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				224B32EA1DE53C95007803DE /* NewUserGuide.h */,
+				224B32EB1DE53C95007803DE /* NewUserGuide.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224B32EC1DE53C95007803DE /* NewUserGuide.m in Sources */,
 				224B32DA1DE53C67007803DE /* ViewController.m in Sources */,
 				224B32D71DE53C67007803DE /* AppDelegate.m in Sources */,
 				224B32D41DE53C67007803DE /* main.m in Sources */,
