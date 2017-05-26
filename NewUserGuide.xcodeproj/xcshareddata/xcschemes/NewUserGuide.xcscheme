@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "229B1E711ED8266A00FB0891"
-               BuildableName = "NewUserGuide_Framework.framework"
-               BlueprintName = "NewUserGuide_Framework"
+               BuildableName = "NewUserGuide.framework"
+               BlueprintName = "NewUserGuide"
                ReferencedContainer = "container:NewUserGuide.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "229B1E711ED8266A00FB0891"
-            BuildableName = "NewUserGuide_Framework.framework"
-            BlueprintName = "NewUserGuide_Framework"
+            BuildableName = "NewUserGuide.framework"
+            BlueprintName = "NewUserGuide"
             ReferencedContainer = "container:NewUserGuide.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "229B1E711ED8266A00FB0891"
-            BuildableName = "NewUserGuide_Framework.framework"
-            BlueprintName = "NewUserGuide_Framework"
+            BuildableName = "NewUserGuide.framework"
+            BlueprintName = "NewUserGuide"
             ReferencedContainer = "container:NewUserGuide.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -14,9 +14,9 @@
 		224B32DF1DE53C67007803DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224B32DE1DE53C67007803DE /* Assets.xcassets */; };
 		224B32E21DE53C67007803DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224B32E01DE53C67007803DE /* LaunchScreen.storyboard */; };
 		224B32F01DE542B7007803DE /* NewUserGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B32EF1DE542B7007803DE /* NewUserGuide.m */; };
-		229B1E761ED8266A00FB0891 /* NewUserGuide_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 229B1E741ED8266A00FB0891 /* NewUserGuide_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		229B1E791ED8266A00FB0891 /* NewUserGuide_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B1E721ED8266A00FB0891 /* NewUserGuide_Framework.framework */; };
-		229B1E7A1ED8266A00FB0891 /* NewUserGuide_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 229B1E721ED8266A00FB0891 /* NewUserGuide_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		229B1E761ED8266A00FB0891 /* NewUserGuide_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 229B1E741ED8266A00FB0891 /* NewUserGuide_Framework.h */; };
+		229B1E791ED8266A00FB0891 /* NewUserGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B1E721ED8266A00FB0891 /* NewUserGuide.framework */; };
+		229B1E7A1ED8266A00FB0891 /* NewUserGuide.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 229B1E721ED8266A00FB0891 /* NewUserGuide.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		229B1E7F1ED8267900FB0891 /* NewUserGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = 224B32EE1DE542B7007803DE /* NewUserGuide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		229B1E801ED8267900FB0891 /* NewUserGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B32EF1DE542B7007803DE /* NewUserGuide.m */; };
 /* End PBXBuildFile section */
@@ -38,7 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				229B1E7A1ED8266A00FB0891 /* NewUserGuide_Framework.framework in Embed Frameworks */,
+				229B1E7A1ED8266A00FB0891 /* NewUserGuide.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		224B32CF1DE53C67007803DE /* NewUserGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewUserGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224B32CF1DE53C67007803DE /* NewUserGuideDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewUserGuideDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		224B32D31DE53C67007803DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		224B32D51DE53C67007803DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		224B32D61DE53C67007803DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		224B32E31DE53C67007803DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224B32EE1DE542B7007803DE /* NewUserGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewUserGuide.h; sourceTree = "<group>"; };
 		224B32EF1DE542B7007803DE /* NewUserGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewUserGuide.m; sourceTree = "<group>"; };
-		229B1E721ED8266A00FB0891 /* NewUserGuide_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewUserGuide_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229B1E721ED8266A00FB0891 /* NewUserGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewUserGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		229B1E741ED8266A00FB0891 /* NewUserGuide_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewUserGuide_Framework.h; sourceTree = "<group>"; };
 		229B1E751ED8266A00FB0891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229B1E791ED8266A00FB0891 /* NewUserGuide_Framework.framework in Frameworks */,
+				229B1E791ED8266A00FB0891 /* NewUserGuide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +95,8 @@
 		224B32D01DE53C67007803DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				224B32CF1DE53C67007803DE /* NewUserGuide.app */,
-				229B1E721ED8266A00FB0891 /* NewUserGuide_Framework.framework */,
+				224B32CF1DE53C67007803DE /* NewUserGuideDemo.app */,
+				229B1E721ED8266A00FB0891 /* NewUserGuide.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,17 +150,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229B1E761ED8266A00FB0891 /* NewUserGuide_Framework.h in Headers */,
 				229B1E7F1ED8267900FB0891 /* NewUserGuide.h in Headers */,
+				229B1E761ED8266A00FB0891 /* NewUserGuide_Framework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		224B32CE1DE53C67007803DE /* NewUserGuide */ = {
+		224B32CE1DE53C67007803DE /* NewUserGuideDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 224B32E61DE53C67007803DE /* Build configuration list for PBXNativeTarget "NewUserGuide" */;
+			buildConfigurationList = 224B32E61DE53C67007803DE /* Build configuration list for PBXNativeTarget "NewUserGuideDemo" */;
 			buildPhases = (
 				224B32CB1DE53C67007803DE /* Sources */,
 				224B32CC1DE53C67007803DE /* Frameworks */,
@@ -172,14 +172,14 @@
 			dependencies = (
 				229B1E781ED8266A00FB0891 /* PBXTargetDependency */,
 			);
-			name = NewUserGuide;
+			name = NewUserGuideDemo;
 			productName = NewUserGuide;
-			productReference = 224B32CF1DE53C67007803DE /* NewUserGuide.app */;
+			productReference = 224B32CF1DE53C67007803DE /* NewUserGuideDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		229B1E711ED8266A00FB0891 /* NewUserGuide_Framework */ = {
+		229B1E711ED8266A00FB0891 /* NewUserGuide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 229B1E7D1ED8266A00FB0891 /* Build configuration list for PBXNativeTarget "NewUserGuide_Framework" */;
+			buildConfigurationList = 229B1E7D1ED8266A00FB0891 /* Build configuration list for PBXNativeTarget "NewUserGuide" */;
 			buildPhases = (
 				229B1E6D1ED8266A00FB0891 /* Sources */,
 				229B1E6E1ED8266A00FB0891 /* Frameworks */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = NewUserGuide_Framework;
+			name = NewUserGuide;
 			productName = NewUserGuide_Framework;
-			productReference = 229B1E721ED8266A00FB0891 /* NewUserGuide_Framework.framework */;
+			productReference = 229B1E721ED8266A00FB0891 /* NewUserGuide.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -229,8 +229,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				224B32CE1DE53C67007803DE /* NewUserGuide */,
-				229B1E711ED8266A00FB0891 /* NewUserGuide_Framework */,
+				224B32CE1DE53C67007803DE /* NewUserGuideDemo */,
+				229B1E711ED8266A00FB0891 /* NewUserGuide */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +280,7 @@
 /* Begin PBXTargetDependency section */
 		229B1E781ED8266A00FB0891 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 229B1E711ED8266A00FB0891 /* NewUserGuide_Framework */;
+			target = 229B1E711ED8266A00FB0891 /* NewUserGuide */;
 			targetProxy = 229B1E771ED8266A00FB0891 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -477,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		224B32E61DE53C67007803DE /* Build configuration list for PBXNativeTarget "NewUserGuide" */ = {
+		224B32E61DE53C67007803DE /* Build configuration list for PBXNativeTarget "NewUserGuideDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				224B32E71DE53C67007803DE /* Debug */,
@@ -486,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		229B1E7D1ED8266A00FB0891 /* Build configuration list for PBXNativeTarget "NewUserGuide_Framework" */ = {
+		229B1E7D1ED8266A00FB0891 /* Build configuration list for PBXNativeTarget "NewUserGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				229B1E7B1ED8266A00FB0891 /* Debug */,
