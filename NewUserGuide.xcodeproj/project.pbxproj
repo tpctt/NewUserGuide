@@ -17,7 +17,7 @@
 		229B1E761ED8266A00FB0891 /* NewUserGuide_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 229B1E741ED8266A00FB0891 /* NewUserGuide_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		229B1E791ED8266A00FB0891 /* NewUserGuide_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B1E721ED8266A00FB0891 /* NewUserGuide_Framework.framework */; };
 		229B1E7A1ED8266A00FB0891 /* NewUserGuide_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 229B1E721ED8266A00FB0891 /* NewUserGuide_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		229B1E7F1ED8267900FB0891 /* NewUserGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = 224B32EE1DE542B7007803DE /* NewUserGuide.h */; };
+		229B1E7F1ED8267900FB0891 /* NewUserGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = 224B32EE1DE542B7007803DE /* NewUserGuide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		229B1E801ED8267900FB0891 /* NewUserGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B32EF1DE542B7007803DE /* NewUserGuide.m */; };
 /* End PBXBuildFile section */
 
@@ -493,6 +493,7 @@
 				229B1E7C1ED8266A00FB0891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
