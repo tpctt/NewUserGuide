@@ -22,5 +22,5 @@ typedef void(^NewUserGuideTapBlock)(void);
 
 +(BOOL)hadShowNewUserGuideForKey:(NSString *)key;
 +(BOOL)isShowingNewUserGuideForKey:(NSString *)key;
-
++(void)setHadShowNewUserGuideForKey:(NSString *)key;
 @end
